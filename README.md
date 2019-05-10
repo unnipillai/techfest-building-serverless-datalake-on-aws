@@ -1,11 +1,4 @@
-# techfest-building-serverless-datalake-on-aws
-2019 aws summit workshop content
-
-
-
-
 # Summit 2019 - TechFest - Building Serverless Data Lakes on AWS
-
 
 Author: Unni Pillai, Amazon Web Services
 
