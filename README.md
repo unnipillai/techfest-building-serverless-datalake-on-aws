@@ -8,11 +8,9 @@ Author: Unni Pillai, Amazon Web Services
 
 # Architecture - Diagram
 
-![undefined](https://unnik.s3.amazonaws.com/public-files/unnik-lab-guides/aws-summit-2019/techfest/unnik-techfest-2019-lab-architecture.png)
+![undefined](./img/unnik-techfest-2019-lab-architecture.png)
 
 # Note:  
-
-* It is advisable to your personal AWS account, AWS team at the event will give you credits codes to offset the cost for this lab
 * Have access to an AWS account with **AdminstratorAccess*
 * This lab should be executed in **us-east-1** region
 * Best is to **follow links from this  guide** & open them **in new a tab**
@@ -43,7 +41,7 @@ Navigate to S3 Console & Create a new bucket in us-east-1 region :
             * New folder : **reference_data**
             * Click - **Save**
     * Open - **reference_data**
-        * download this file locally : https://s3.ap-southeast-1.amazonaws.com/unnik/public-files/unnik-lab-guides/aws-summit-2019/techfest/tracks_list.json
+        * download this file locally : techfest/tracks_list.json
         * Click - Upload
             * Click **Add files** & upload the **tracks_list.json** file here
             * Click **Upload** (bottom left)
@@ -273,7 +271,7 @@ You have to wait for this step to complete before moving to next step.
 This will take few minutes, wait for this to finish
 
 ## Launch Jupyter Notebook
-- Download and save this file locally on your laptop : https://unnik.s3.amazonaws.com/public-files/unnik-lab-guides/aws-summit-2019/techfest/summit-techfest-datalake-notebook.ipynb 
+- Download and save this file locally on your laptop : summit-techfest-datalake-notebook.ipynb 
 - GoTo: https://console.aws.amazon.com/glue/home?region=us-east-1#etl:tab=notebooks
 - Click - **aws-glue-notebook1**
 - Click - **Open**, This will open a new tab
@@ -340,7 +338,7 @@ Login to Amazon Quick Sight Console & complete the registration & sign-up
 * GoTo: https://us-east-1.quicksight.aws.amazon.com/sn/start
 * You should see quicksight hompage: 
 ![
-](https://unnik.s3.amazonaws.com/public-files/unnik-lab-guides/aws-summit-2019/techfest/quicksight_home_page.jpg)
+](./img/quicksight_home_page.jpg)
 
 ## Setting QuickSight Permissions
 
@@ -352,10 +350,10 @@ Login to Amazon Quick Sight Console & complete the registration & sign-up
 * Click: **Update**
 
 ![
-](https://unnik.s3.amazonaws.com/public-files/unnik-lab-guides/aws-summit-2019/techfest/qs_permissions_1.jpg)
+](./img/qs_permissions_1.jpg)
 
 ![
-](https://unnik.s3.amazonaws.com/public-files/unnik-lab-guides/aws-summit-2019/techfest/qs_permissions_2.jpg)
+](./img/qs_permissions_2.jpg)
 
 
 ## Adding a New Dataset
