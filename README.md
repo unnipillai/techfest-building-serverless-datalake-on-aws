@@ -1,17 +1,14 @@
-# Summit 2019 - TechFest - Building Serverless Data Lakes on AWS
-
+# AWS SG Summit 2019 - TechFest - Building Serverless Data Lakes on AWS
 Author: Unni Pillai, Amazon Web Services
 
-**Lets connect:**
+![Architecture Diagram](./img/unnik-techfest-2019-lab-architecture.png)
+
+**Lets Connect:**
 * LinkedIn : http://bit.ly/upillai
 * Twitter: https://twitter.com/unni_k_pillai
 
-# Architecture - Diagram
-
-![undefined](./img/unnik-techfest-2019-lab-architecture.png)
-
-# Note:  
-* Have access to an AWS account with **AdminstratorAccess*
+# Pre-requisites:  
+* You need to have access to an AWS account with **AdminstratorAccess*
 * This lab should be executed in **us-east-1** region
 * Best is to **follow links from this  guide** & open them **in new a tab**
 * Run this lab in a modern browser
@@ -41,7 +38,7 @@ Navigate to S3 Console & Create a new bucket in us-east-1 region :
             * New folder : **reference_data**
             * Click - **Save**
     * Open - **reference_data**
-        * download this file locally : techfest/tracks_list.json
+        * download this file locally : [tracks_list.json](tracks_list.json)
         * Click - Upload
             * Click **Add files** & upload the **tracks_list.json** file here
             * Click **Upload** (bottom left)
@@ -271,7 +268,7 @@ You have to wait for this step to complete before moving to next step.
 This will take few minutes, wait for this to finish
 
 ## Launch Jupyter Notebook
-- Download and save this file locally on your laptop : summit-techfest-datalake-notebook.ipynb 
+- Download and save this file locally on your laptop : [summit-techfest-datalake-notebook.ipynb](summit-techfest-datalake-notebook.ipynb)
 - GoTo: https://console.aws.amazon.com/glue/home?region=us-east-1#etl:tab=notebooks
 - Click - **aws-glue-notebook1**
 - Click - **Open**, This will open a new tab
