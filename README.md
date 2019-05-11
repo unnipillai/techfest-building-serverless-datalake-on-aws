@@ -1,11 +1,17 @@
-# AWS SG Summit 2019 - TechFest - Building Serverless Data Lakes on AWS
+# Building Serverless Data Lakes on AWS
 Author: Unni Pillai, Amazon Web Services
+
+### What all do you learn in this workshop ? 
+- How to create a serverless data lake architecture, ingest data at scale from multiple data sources, transform the data, and how to catalog it to make it available for querying using a variety of tools.
+- Build a data processing pipeline and Data Lake using Amazon S3 for storing data
+- Use Amazon Kinesis for real-time streaming data
+- Use AWS Glue to automatically catalog datasets
+- Run interactive ETL scripts in an Amazon SageMaker Jupyter notebook connected to an AWS Glue development endpoint
 
 ![Architecture Diagram](./img/unnik-techfest-2019-lab-architecture.png)
 
-**Lets Connect:**
-* LinkedIn : http://bit.ly/upillai
-* Twitter: https://twitter.com/unni_k_pillai
+### Lets Connect:
+* [Twitter](https://twitter.com/unni_k_pillai)
 
 # Pre-requisites:  
 * You need to have access to an AWS account with **AdminstratorAccess*
