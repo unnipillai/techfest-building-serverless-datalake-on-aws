@@ -12,7 +12,7 @@ Author: Unni Pillai | Amazon Web Services | [Twitter](https://twitter.com/unni_k
 * Query data using Amazon Athena & visualize it using Amazon QuickSight
 
 # Pre-requisites:  
-* You need to have access to an AWS account with **AdminstratorAccess*
+* You need to have access to an AWS account with **AdminstratorAccess**
 * This lab should be executed in **us-east-1** region
 * Best is to **follow links from this  guide** & open them **in new a tab**
 * Run this lab in a modern browser
