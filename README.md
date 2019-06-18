@@ -198,7 +198,7 @@ In this step, we will navigate to AWS Glue Console & create glue crawlers to dis
     * Review all steps
         * Review the configuration & make sure its as mentioned above
         * Click - **Finish**
-* You should see a message : Crawler summit-raw-data-crawler was created to run on demand.
+* You should see a message : Crawler summitcrawler was created to run on demand.
     * Click - **Run on demand** This will run the crawler
     * Wait for few minutes
 
@@ -211,7 +211,7 @@ Navigate to Glue Catalog & explore the crawled data:
 * Click - **Tables in summitdb**
     * Click - **raw**
     * Look around and explore the schema for your dataset
-        * look for the average recordSize, recordCount, compressionType
+        * look for the `averageRecordSize`, `recordCount`, `compressionType`
 
 ## Query ingested data using Amazon Athena
 
