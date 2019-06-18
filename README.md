@@ -248,7 +248,7 @@ In this step you will be creating a glue endpoint to interactively develop Glue 
     * Choose - **Skip networking information**
   * Add an SSH public key (Optional)
     * Leave as defaults
-    * Click: **Next **
+    * Click: **Next**
   * Review the settings
     * Click: **Finish**
 
